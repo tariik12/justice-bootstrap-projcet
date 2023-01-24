@@ -1,0 +1,33 @@
+/* button */
+.button-color{
+    background-color: #B68C5A;
+    border-radius: 8px;
+    border: none;
+    padding: 10px 30px 10px 30px;
+    color: white;
+}
+/* The Legal Practice Area */
+.back-shadow{
+  background-color:    linear-gradient(180deg, #F3F3F3 0%, rgba(243, 243, 243, 0) 100%);
+border: 1px solid #E7E7E7;
+}
+
+/* What Our Client Say */
+.backround-1{
+    background-image:url(../images/slider-1.jpg);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    height: 100vh;
+}
+.backround-2{
+    background-image:url(../images/slider-2.jpg);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    height: 100vh;
+}
+.backround-3{
+    background-image:url(../images/slider-3.jpg);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    height: 100vh;
+}

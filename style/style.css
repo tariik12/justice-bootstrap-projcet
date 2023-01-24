@@ -1,77 +1,70 @@
-:root{
-    --primary:#E7E7E7 !important;
-    --secondary: #F3F3F3 !important;
-    --thirdly:#707070 !important;
-    --fourthly:#CFCFCF !important;
-    --dark:#414040 !important;
-}
+    :root {
+        --primary:#E7E7E7 !important;
+        --secondary: #F3F3F3 !important;
+        --thirdly:#707070 !important;
+        --fourthly:#CFCFCF !important;
+        --dark:#414040 !important;
+    }
 /* title-text-color */
-.dark{
-    color: var(--dark) !important;
-}
+    .dark {
+        color: var(--dark) !important;
+    }
 /* banner-description-text-color */
-.primary{
-    color: var(--primary) !important;
-}
-/* carosuoel-description-text-color */
-.secondary{
-    color: var(--secondary)!important;
-}
+    .primary {
+        color: var(--primary) !important;
+    }
+/* Carousel-description-text-color */
+    .secondary {
+        color: var(--secondary)!important;
+    }
 /*  common & modalDescription-text-color */
-.third{
-    color: var(--thirdly) !important;
-}
+    .third {
+        color: var(--thirdly) !important;
+    }
 /* footer-text-color */
-.fourth{
-    color: var(--fourthly);
-}
-
+    .fourth {
+        color: var(--fourthly);
+    }
 /* button */
-.button-primary{
-    background-color: #B68C5A !important;
-    border-radius: 8px !important;
-    border: none !important;
-    padding: 10px 30px 10px 30px !important;
-    color: white !important;
-}
-/* The Legal Practice Area */
-.back-shadow{
-    background: linear-gradient(180deg, #F3F3F3 0%, rgba(243, 243, 243, 0) 100%) !important;
-    border: 1px solid var(--primary) !important;
-    
-    
-}
-hr{
-    margin: 0 auto !important;
-
-    border: 1px solid var(--primary) !important;
-}
-
-.according-backround{
-    background-color: var(--secondary) !important;
-border: 2px solid var(--secondary) !important;
-    border-radius: 8px;
-}
-/* What Our Client Say */
-.key{
-    background-color: var(--secondary) !important;
-    border: .1px solid var(--primary) !important;
-    
-}
-/* What Our Client Say */
-.accordent {
-    position: relative !important;
-    display: flex !important;
-    justify-content: space-between !important;
-    align-items: center !important;
-    width: 100% !important;
-    font-size: 1rem !important;
-    text-align: left !important;
-    border: 0 !important;
-    border-radius: 0 !important;
-    
-    
-  }
+    .button-primary {
+        background-color: #B68C5A !important;
+        border-radius: 8px !important;
+        border: none !important;
+        padding: 14px 30px 14px 30px !important;
+        color: white !important;
+    }
+/* The-Legal-Practice-Area */
+    .back-shadow {
+        background: linear-gradient(180deg, #F3F3F3 0%, rgba(243, 243, 243, 0) 100%) !important;
+        border: 1px solid var(--primary) !important;
+    }
+    hr {
+        margin: 0 auto !important;
+        border: 1px solid var(--primary) !important;
+    }
+/* accordion-background */
+    .accordion-background {
+        background-color: var(--secondary) !important;
+        border: 2px solid var(--secondary) !important;
+        border-radius: 8px;
+    }
+/* Contact-With-Us-bg */
+   .Contact-With-Us-bg {
+        background-color: var(--secondary) !important;
+        border: .1px solid var(--primary) !important; 
+    }
+/* accordion-icon */
+    .accordion-icon {
+        position: relative !important;
+        display: flex !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+        width: 100% !important;
+        font-size: 1rem !important;
+        text-align: left !important;
+        border: 0 !important;
+        border-radius: 0 !important;  
+    }
 
 
 

@@ -8,10 +8,15 @@
 }
 /* The Legal Practice Area */
 .back-shadow{
-  background-color:    linear-gradient(180deg, #F3F3F3 0%, rgba(243, 243, 243, 0) 100%);
-border: 1px solid #E7E7E7;
+    background: linear-gradient(180deg, #F3F3F3 0%, rgba(243, 243, 243, 0) 100%);
+    border: 1px solid #E7E7E7;
+    
+    
 }
-
+hr{
+    margin: 0 auto;
+    border: 1px solid #E7E7E7;
+}
 /* What Our Client Say */
 .backround-1{
     background-image:url(../images/slider-1.jpg);

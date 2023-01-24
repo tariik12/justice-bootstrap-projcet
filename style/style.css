@@ -15,10 +15,43 @@
 }
 hr{
     margin: 0 auto;
+
     border: 1px solid #E7E7E7;
 }
+
+.according-backround{
+    background-color: #F3F3F3;
+border: 2px solid #F3F3F3;
+    border-radius: 8px;
+}
 /* What Our Client Say */
-.backround-1{
+.key{
+    border: .1px solid #E7E7E7;
+    
+}
+/* What Our Client Say */
+.accordent {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    
+    font-size: 1rem;
+    
+    text-align: left;
+    
+    border: 0;
+    border-radius: 0;
+    
+    
+  }
+.accordent:hover{
+    
+}
+
+  /* color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, border-radius 0.15s ease; */
+/* .backround-1{
     background-image:url(../images/slider-1.jpg);
     background-repeat: no-repeat;
     background-position-y: center;
@@ -51,4 +84,4 @@ hr{
 .carousel-img-3{
     background-image: url(../images/slider-3.jpg);
     height: 100vh;
-}
+} */

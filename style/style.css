@@ -1,88 +1,77 @@
+:root{
+    --primary:#E7E7E7 !important;
+    --secondary: #F3F3F3 !important;
+    --thirdly:#707070 !important;
+    --fourthly:#CFCFCF !important;
+    --dark:#414040 !important;
+}
+/* title-text-color */
+.dark{
+    color: var(--dark) !important;
+}
+/* banner-description-text-color */
+.primary{
+    color: var(--primary) !important;
+}
+/* carosuoel-description-text-color */
+.secondary{
+    color: var(--secondary)!important;
+}
+/*  common & modalDescription-text-color */
+.third{
+    color: var(--thirdly) !important;
+}
+/* footer-text-color */
+.fourth{
+    color: var(--fourthly);
+}
+
 /* button */
-.button-color{
-    background-color: #B68C5A;
-    border-radius: 8px;
-    border: none;
-    padding: 10px 30px 10px 30px;
-    color: white;
+.button-primary{
+    background-color: #B68C5A !important;
+    border-radius: 8px !important;
+    border: none !important;
+    padding: 10px 30px 10px 30px !important;
+    color: white !important;
 }
 /* The Legal Practice Area */
 .back-shadow{
-    background: linear-gradient(180deg, #F3F3F3 0%, rgba(243, 243, 243, 0) 100%);
-    border: 1px solid #E7E7E7;
+    background: linear-gradient(180deg, #F3F3F3 0%, rgba(243, 243, 243, 0) 100%) !important;
+    border: 1px solid var(--primary) !important;
     
     
 }
 hr{
-    margin: 0 auto;
+    margin: 0 auto !important;
 
-    border: 1px solid #E7E7E7;
+    border: 1px solid var(--primary) !important;
 }
 
 .according-backround{
-    background-color: #F3F3F3;
-border: 2px solid #F3F3F3;
+    background-color: var(--secondary) !important;
+border: 2px solid var(--secondary) !important;
     border-radius: 8px;
 }
 /* What Our Client Say */
 .key{
-    background-color: #F3F3F3;
-    border: .1px solid #E7E7E7;
+    background-color: var(--secondary) !important;
+    border: .1px solid var(--primary) !important;
     
 }
 /* What Our Client Say */
 .accordent {
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    
-    font-size: 1rem;
-    
-    text-align: left;
-    
-    border: 0;
-    border-radius: 0;
+    position: relative !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    width: 100% !important;
+    font-size: 1rem !important;
+    text-align: left !important;
+    border: 0 !important;
+    border-radius: 0 !important;
     
     
   }
-.accordent:hover{
-    
-}
-
-  /* color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, border-radius 0.15s ease; */
-/* .backround-1{
-    background-image:url(../images/slider-1.jpg);
-    background-repeat: no-repeat;
-    background-position-y: center;
-
-    height: 100vh;
-}
-.backround-2{
-    background-image:url(../images/slider-2.jpg);
-    background-repeat: no-repeat;
-    background-position-y: center;
-    height: 100vh;
-}
-.backround-3{
-    background-image:url(../images/slider-3.jpg);
-    background-repeat: no-repeat;
-    background-position-y: center;
-    height: 100vh;
-}
 
 
 
-.carousel-img-1{
-    background-image: url(../images/slider-1.jpg);
-    height: 100vh;
-}
-.carousel-img-2{
-    background-image: url(../images/slider-2.jpg);
-    height: 100vh;
-}
-.carousel-img-3{
-    background-image: url(../images/slider-3.jpg);
-    height: 100vh;
-} */

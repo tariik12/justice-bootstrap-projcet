@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<!-- saved from url=(0103)https://codepen.io/web-dot-dev/embed/BaReoEV?height=500&theme-id=light&default-tab=result&editable=true -->
+<html lang="en" class="pc chrome109 js"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width">
+<title>CodePen Embed - Box Model</title>
+<meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="ycR4MnP349hsJoW8QakdQ2bKOJIiepKnJy3yvdrJdMk7ozWUVNo7fEC6dZlPK3tAVM8bWJxny/u+TjWHxI4t2g==">
+<link rel="stylesheet" media="all" href="./embed-5c9d0df4194479e72f3f4195cb70bfc2217587bcd5b1acda570c7aadbea18f9c.css">
+<style>
+    .hide {
+      display: none !important;
+    }
+
+    #result-box {
+      background: #fefefe;
+      color: #333333;
+    }
+    .embed-footer,
+    .embed-nav {
+      background: #fefefe;
+      
+    }
+    .embed-nav .code-types a,
+    .embed-nav .result-button-list a,
+    .action-button {
+      color: #333333;
+      background-color: #eeeeee;
+    }
+    .embed-nav .code-types a.active,
+    .embed-nav .result-button-list a.active,
+    .action-button.active {
+      background: #cccccc;
+      color: #333333;
+      box-shadow: inset 0px 3px #333333;
+    }
+    .embed-nav .logo-wrap .edit-on-codepen {
+      color: #333333;
+    }
+
+    .embed-nav svg {
+      stroke: #333333 !important;
+    }
+  </style>
+<link rel="stylesheet" media="all" href="./classic-ae8e52fba1904e4075c2dab479d145aa358785b746577d9e4d050b29dfdaf8c5.css">
+<meta name="monetization" content="$ilp.uphold.com/biyqg2MkQKbe">
+</head>
+<body id="the-body" style="border: 1px solid #eeeeee; --borderWidth: 1px;" class="codepen-embed-body results-active">
+<nav class="embed-nav group" id="embed-nav">
+<ul class="code-types">
+<li class="code-type">
+<a id="html-link" href="https://codepen.io/web-dot-dev/embed/BaReoEV?height=500&amp;theme-id=light&amp;default-tab=result&amp;editable=true#html-box" role="button" aria-pressed="false">
+HTML
+</a>
+</li>
+<li class="code-type">
+<a id="css-link" href="https://codepen.io/web-dot-dev/embed/BaReoEV?height=500&amp;theme-id=light&amp;default-tab=result&amp;editable=true#css-box" role="button" aria-pressed="false">
+CSS
+</a>
+</li>
+<li class="code-type">
+<a id="js-link" href="https://codepen.io/web-dot-dev/embed/BaReoEV?height=500&amp;theme-id=light&amp;default-tab=result&amp;editable=true#js-box" role="button" aria-pressed="false">
+JS
+</a>
+</li>
+</ul>
+<ul class="result-button-list">
+<li class="results results-type">
+<a id="result-link" href="https://codepen.io/web-dot-dev/embed/BaReoEV?height=500&amp;theme-id=light&amp;default-tab=result&amp;editable=true#result-box" class="active" aria-pressed="true" role="button">
+Result
+</a>
+</li>
+<li>
+<a href="https://codepen.io/web-dot-dev/embed/BaReoEV?height=500&amp;theme-id=light&amp;default-tab=result&amp;editable=true#resources-link" id="skip-results-iframe-link">Skip Results Iframe</a>
+</li>
+</ul>
+<div class="logo-wrap" id="edit-area">
+<a class="edit-on-codepen" target="_blank" rel="noopener" href="https://codepen.io/web-dot-dev/pen/BaReoEV" title="Edit on CodePen">
+<div class="large-logo">
+<span id="edit-on-text" class="open-on">EDIT ON</span>
+<svg id="embed-codepen-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 138 26" fill="none" stroke="#000" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="CodePen">
+<path d="M80 6h-9v14h9m34-14h-9v14h9m-3-7h-6m-28 0h-6m51 7V6l11 14V6M22 16.7L33 24l11-7.3V9.3L33 2 22 9.3v7.4zm22 0L33 9.3l-11 7.4m0-7.4l11 7.3 11-7.3M33 2v7.3m0 7.4V24m55-10h6c2.2 0 4-1.8 4-4s-1.8-4-4-4h-6v14M15 8c-1.3-1.3-3-2-5-2-4 0-7 3-7 7s3 7 7 7c2 0 3.7-.8 5-2m49-5c0 4-3 7-7 7h-5V6h5c4 0 7 3 7 7z"></path>
+</svg>
+</div>
+<div class="box-logo">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="20 0 26 26" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.3" role="img" aria-label="Edit on CodePen">
+<path id="icon-codepen-box" d="M22 16.7L33 24l11-7.3V9.3L33 2 22 9.3v7.4zm22 0L33 9.3l-11 7.4m0-7.4l11 7.3 11-7.3M33 2v7.3m0 7.4V24"></path>
+</svg>
+</div>
+</a>
+</div>
+</nav>
+<div id="output" data-border-style="thin" data-header="true">
+<div id="html-box" class="code-wrap code-box box " role="region" aria-label="HTML">
+<div class="editable-badge">
+Live
+</div>
+<div class="CodeMirror cm-s-default CodeMirror-wrap CodeMirror-simplescroll" translate="no"><div style="overflow: hidden; position: relative; width: 3px; height: 0px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" aria-label="HTML Code Editor" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; min-height: 1em; outline: none;"></textarea></div><div class="CodeMirror-simplescroll-horizontal" cm-not-content="true" style="display: none;"><div></div></div><div class="CodeMirror-simplescroll-vertical" cm-not-content="true" style="display: block; bottom: 0px;"><div style="height: 10px; top: 0px;"></div></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; padding-right: 10px; padding-bottom: 0px;"><div style="position: relative;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><pre class="CodeMirror-line-like"><span>xxxxxxxxxx</span></pre><div class="CodeMirror-linenumber CodeMirror-gutter-elt"><div>15</div></div></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-cursors"></div><div class="CodeMirror-code" role="presentation"></div></div></div></div></div><div style="position: absolute; height: 50px; width: 1px; border-bottom: 0px solid transparent;"></div><div class="CodeMirror-gutters"><div class="CodeMirror-gutter CodeMirror-linenumbers" style="width: 1px;"></div><div class="CodeMirror-gutter CodeMirror-foldgutter"></div></div></div></div>
+</div>
+<div id="css-box" class="code-wrap code-box box " role="region" aria-label="CSS">
+<div class="editable-badge">
+Live
+</div>
+<div class="CodeMirror cm-s-default CodeMirror-wrap CodeMirror-simplescroll" translate="no"><div style="overflow: hidden; position: relative; width: 3px; height: 0px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" aria-label="CSS Code Editor" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; min-height: 1em; outline: none;"></textarea></div><div class="CodeMirror-simplescroll-horizontal" cm-not-content="true" style="display: none;"><div></div></div><div class="CodeMirror-simplescroll-vertical" cm-not-content="true" style="display: block; bottom: 0px;"><div style="height: 10px; top: 0px;"></div></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; padding-right: 10px; padding-bottom: 0px;"><div style="position: relative;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><pre class="CodeMirror-line-like"><span>xxxxxxxxxx</span></pre><div class="CodeMirror-linenumber CodeMirror-gutter-elt"><div>149</div></div></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-cursors"></div><div class="CodeMirror-code" role="presentation"></div></div></div></div></div><div style="position: absolute; height: 50px; width: 1px; border-bottom: 0px solid transparent;"></div><div class="CodeMirror-gutters"><div class="CodeMirror-gutter CodeMirror-linenumbers" style="width: 1px;"></div><div class="CodeMirror-gutter CodeMirror-foldgutter"></div></div></div></div>
+</div>
+<div id="js-box" class="code-wrap code-box box " role="region" aria-label="JS">
+<div class="editable-badge">
+Live
+</div>
+<div class="CodeMirror cm-s-default CodeMirror-wrap CodeMirror-simplescroll" translate="no"><div style="overflow: hidden; position: relative; width: 3px; height: 0px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" aria-label="JavaScript Code Editor" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; min-height: 1em; outline: none;"></textarea></div><div class="CodeMirror-simplescroll-horizontal" cm-not-content="true" style="display: none;"><div></div></div><div class="CodeMirror-simplescroll-vertical" cm-not-content="true" style="display: block; bottom: 0px;"><div style="height: 10px; top: 0px;"></div></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; padding-right: 10px; padding-bottom: 0px;"><div style="position: relative;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><pre class="CodeMirror-line-like"><span>xxxxxxxxxx</span></pre><div class="CodeMirror-linenumber CodeMirror-gutter-elt"><div>7</div></div></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-cursors"></div><div class="CodeMirror-code" role="presentation"></div></div></div></div></div><div style="position: absolute; height: 50px; width: 1px; border-bottom: 0px solid transparent;"></div><div class="CodeMirror-gutters"><div class="CodeMirror-gutter CodeMirror-linenumbers" style="width: 1px;"></div><div class="CodeMirror-gutter CodeMirror-foldgutter"></div></div></div></div>
+</div>
+<div id="result-box" class="code-box active zoom-1" role="region" aria-label="Result">
+<iframe allow="accelerometer; camera; encrypted-media; display-capture; geolocation; gyroscope; microphone; midi; clipboard-read; clipboard-write; web-share" allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true" class="result-iframe  " frameborder="0" id="result-iframe" loading="lazy" name="CodePen Preview for Box Model" sandbox="allow-forms allow-modals allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation allow-downloads allow-presentation" scrolling="yes" title="CodePen Preview for Box Model" data-src="https://cdpn.io/web-dot-dev/fullembedgrid/BaReoEV?animations=run&amp;type=embed" src="./BaReoEV(1).html">
+  </iframe>
+</div>
+<div id="about-box">
+<div class="about-container">
+<div class="about-user">
+<a href="https://codepen.io/web-dot-dev" target="_blank" rel="noopener"><img src="./default.png" loading="lazy" alt="" class="about-image"></a>
+<div class="about-user-info">
+<p>
+This Pen is owned by <a href="https://codepen.io/web-dot-dev" target="_blank" rel="noopener">web.dev</a> on <a href="https://codepen.io/" target="_blank" rel="noopener">CodePen</a>.
+It is a fork of <a href="https://cdpn.io/argyleink/fullpage/bGNmgGW?default-tab=result&amp;editable=true&amp;height=500&amp;theme-id=light&amp;view=">this Pen.</a>
+</p>
+<p>
+<a href="https://codepen.io/web-dot-dev" target="_blank" rel="noopener" class="about-user-more">
+See more by @web-dot-dev on CodePen
+</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="resources-box" class="resources-box">
+<h3>External CSS</h3>
+<p>
+This Pen doesn't use any external CSS resources.
+</p>
+<h3>External JavaScript</h3>
+<p>
+This Pen doesn't use any external JavaScript resources.
+</p>
+</div>
+</div>
+<footer class="embed-footer" id="embed-footer">
+<button id="resources-link" class="resources-link action-button bottom left" href="#resources-box" aria-pressed="false" role="button">
+Resources
+</button>
+<ul class="scaling-choices bottom right">
+<li><button class="action-button" id="zoom-button-1">1×</button></li>
+<li><button class="action-button" id="zoom-button-05">0.5×</button></li>
+<li><button class="action-button" id="zoom-button-025">0.25×</button></li>
+</ul>
+<button id="rerun-button" class="action-button rerun-button bottom right">
+Rerun
+</button>
+</footer>
+<textarea id="init-data" style="display:none">{"__browser":{"device":"unknown_device","mobile":false,"name":"chrome","platform":"pc","version":"109"},"__constants":{},"__CPDATA":{"domain_iframe":"https://cdpn.io","environment":"production","host":"codepen.io","iframe_allow":"accelerometer; camera; encrypted-media; display-capture; geolocation; gyroscope; microphone; midi; clipboard-read; clipboard-write; web-share","iframe_sandbox":"allow-forms allow-modals allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation allow-downloads allow-presentation"},"__graphql":{"data":{"data":null,"errors":[{"message":"Cannot return null for non-nullable field Query.sessionUser"}]},"url":"https://codepen.io/graphql","api":"cprails","cpedata":{"action":"show","controller":"embed"}},"__pay_stripe_public_key":"pk_live_2GndomDfiklqpSNQn8FrGuwZSMIMzha7DkLJqlYe7IR0ihKAlKdiHg68JJc5eVPt68rzAjzAAVXcUwjySHRCsgjQQ00gtRBUFNH","__pay_braintree_env":"production","__boomboom":{"serve_url":"https://cdpn.io/cpe/boomboom","store_url":"https://codepen.io/cpe/boomboom/store"},"__pageType":"embed","__item":"{\"editor_settings\":{\"auto_run\":true,\"autocomplete\":false,\"code_folding\":true,\"css_pre_processor\":\"none\",\"css_prefix\":\"neither\",\"css_starter\":\"neither\",\"emmet_active\":true,\"font_size\":14,\"font_type\":\"system\",\"format_on_save\":false,\"html_pre_processor\":\"none\",\"indent_with\":\"spaces\",\"js_pre_processor\":\"none\",\"key_bindings\":\"normal\",\"line_numbers\":true,\"line_wrapping\":true,\"match_brackets\":true,\"snippets\":{\"markupSnippets\":{},\"stylesheetSnippets\":{}},\"tab_size\":2,\"theme\":\"twilight\",\"id\":\"BaReoEV\",\"auto_save\":true},\"hashid\":\"BaReoEV\",\"itemType\":\"pen\",\"resources\":[],\"tags\":[],\"id\":54449889,\"user_id\":5928893,\"html\":\"&lt;article dir=\\\"ltr\\\"&gt;\\n  &lt;figure id=\\\"box_model\\\"&gt;\\n    Content Box\\n    &lt;span class=\\\"vertical scrollbar\\\"&gt;&lt;/span&gt;\\n    &lt;span class=\\\"horizontal scrollbar\\\"&gt;&lt;/span&gt;\\n  &lt;/figure&gt;\\n&lt;/article&gt;\\n\\n&lt;form action=\\\"\\\"&gt;\\n  &lt;label for=\\\"show_scrollbars\\\"&gt;Show scrollbars?&lt;/label&gt;\\n  &lt;input id=\\\"show_scrollbars\\\" type=\\\"checkbox\\\"&gt;\\n  \\n  &lt;label for=\\\"inline_scrollbars\\\"&gt;Inline scrollbars?&lt;/label&gt;\\n  &lt;input id=\\\"inline_scrollbars\\\" type=\\\"checkbox\\\"&gt;\\n&lt;/form&gt;\",\"css\":\"body {\\n  min-height: 100vh;\\n  display: flex;\\n  align-items: center;\\n  justify-content: center;\\n  flex-direction: column;\\n  /*  scale the whole thing here  */\\n  font-size: min(2vmax, 2rem);\\n  gap: 0 5vmin;\\n}\\n\\n@media (orientation: landscape) {\\n  body {\\n    flex-direction: row;\\n  }\\n}\\n\\narticle {\\n  background: repeating-linear-gradient(-45deg, hsl(0 0% 70%), hsl(0 0% 70%) 1px, white 1px, white 10px);\\n  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.02),\\n    0 6.7px 5.3px hsl(0 0% 0% / .028),\\n    0 12.5px 10px hsl(0 0% 0% / .035),\\n    0 22.3px 17.9px hsl(0 0% 0% / .042),\\n    0 41.8px 33.4px hsl(0 0% 0% / .05),\\n    0 100px 80px hsl(0 0% 0% / .07);\\n  position: relative;\\n}\\n\\narticle::before {\\n  content: \\\"Margin Box\\\";\\n  position: absolute;\\n  top: 1ex;\\n  left: 50%;\\n  transform: translateX(-50%);\\n  height: 3ex;\\n  display: flex;\\n  align-items: center;\\n  justify-content: center;\\n  font-size: .5em;\\n  background: white;\\n  padding: .25rem 1rem;\\n  border-radius: 3rem;\\n}\\n\\narticle::after {\\n  content: \\\"Outline &amp; Box Shadow\\\";\\n  position: absolute;\\n  top: 6ex;\\n  left: 0;\\n  width: 100%;\\n  height: 6ex;\\n  display: flex;\\n  align-items: center;\\n  justify-content: center;\\n  font-size: .5em;\\n  color: white;\\n}\\n\\nfigure {\\n  width: 25vmin;\\n  height: 25vmin;\\n  display: flex;\\n  align-items: center;\\n  justify-content: center;\\n  margin: 6ex;\\n  border: 3ex solid black;\\n  outline: 3ex solid hsl(270 50% 40% / 80%);\\n\\tpadding: 3ex;\\n\\tbackground:\\n\\t\\tlinear-gradient(white, white) content-box,\\n\\t\\tlinear-gradient(hotpink, hotpink) padding-box;\\n  position: relative;\\n}\\n\\nfigure &gt; .scrollbar {\\n  background: hsl(0 0% 0% / 25%);\\n  position: absolute;\\n  visibility: hidden;\\n}\\n\\nfigure &gt; .scrollbar.vertical {\\n  width: 1ex;\\n  height: 100%;\\n  top: 0;\\n  right: 0;\\n}\\n\\nfigure &gt; .scrollbar.horizontal {\\n  height: 1ex;\\n  width: 100%;\\n  bottom: 0;\\n  left: 0;\\n}\\n\\nfigure[scrollbars=\\\"true\\\"] .scrollbar {\\n  visibility: visible;\\n}\\n\\nfigure[inline-scrollbars=\\\"true\\\"] {\\n  padding: 3ex 4ex 4ex 3ex;\\n}\\n\\nfigure::after {\\n  content: \\\"Padding Box\\\";\\n  position: absolute;\\n  top: 0;\\n  left: 0;\\n  width: 100%;\\n  height: 6ex;\\n  display: flex;\\n  align-items: center;\\n  justify-content: center;\\n  font-size: .5em;\\n}\\n\\nfigure::before {\\n  content: \\\"Border Box\\\";\\n  color: white;\\n  position: absolute;\\n  top: 0;\\n  left: 0;\\n  transform: translateY(-100%);\\n  width: 100%;\\n  height: 6ex;\\n  display: flex;\\n  align-items: center;\\n  justify-content: center;\\n  font-size: .5em;\\n}\\n\\nform {\\n  display: grid;\\n  grid-template-columns: 1fr auto;\\n  place-items: center;\\n  justify-items: flex-end;\\n  gap: 1rem;\\n  margin-block-start: 3rem;\\n}\\n\\n@media (height &lt;= 640px) {\\n  form {\\n    grid-auto-flow: column;\\n    gap: .25rem;\\n  }\\n  \\n  form &gt; label:last-of-type {\\n    margin-inline-start: 2rem;\\n  }\\n}\",\"js\":\"document.body.setAttribute('dir', 'ltr')\\n\\nwindow.show_scrollbars.addEventListener('input', e =&gt;\\n  window.box_model.setAttribute('scrollbars', e.target.checked))\\n\\nwindow.inline_scrollbars.addEventListener('input', e =&gt;\\n  window.box_model.setAttribute('inline-scrollbars', e.target.checked))\",\"html_pre_processor\":\"none\",\"css_pre_processor\":\"none\",\"js_pre_processor\":\"none\",\"html_classes\":\"\",\"css_starter\":\"normalize\",\"js_library\":null,\"created_at\":\"2021-08-16T15:42:08.000Z\",\"updated_at\":\"2021-08-16T15:51:52.000Z\",\"title\":\"Box Model\",\"description\":\"\",\"slug_hash\":\"BaReoEV\",\"head\":\"\",\"private\":false,\"has_animation\":false,\"team_id\":0,\"css_prefix\":\"autoprefixer\",\"template\":false,\"parent_id\":42380658,\"comments_count\":0,\"custom_screenshot_filename\":null,\"loves_count\":0,\"pick\":false,\"popularity_score\":0,\"views_count\":0,\"pick_visible_at\":\"2022-11-08T22:42:55.128Z\",\"pen_hash\":null}","__jwt":"eyJhbGciOiJIUzI1NiJ9.eyJjbGFpbXMiOnsidXNlcl9pZCI6MX0sImV4cCI6MTY3NDU2MTU3MX0.qLfmY0KVSj_VWStosL0kbt6kJ0zH3n5TBsJDvn71weI","__processorsMap":{"autoprefixer":"autoprefixer-10","babel":"babel-7","coffeescript":"coffeescript-2","format-1":"format-1","flutter":"flutter-1","haml":"haml-4","less":"less-3","lint-1":"lint-1","livescript":"livescript-1","markdown":"markdown-11","postcss":"postcss-7","pug":"pug-2","sass":"sass-1","scss":"sass-1","sass-ruby-3":"sass-ruby-3","sass-ruby-compass-3":"sass-ruby-compass-3","slim":"slim-3","stylus":"stylus-0","typescript":"typescript-4","vue":"vue-2","vue3":"vue-3"},"__favicon_mask_icon":"https://cpwebassets.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg","__favicon_shortcut_icon":"https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico","__path_to_iframe_console_runner":"https://cpwebassets.codepen.io/assets/editor/iframe/iframeConsoleRunner-6bce046e7128ddf9391ccf7acbecbf7ce0cbd7b6defbeb2e217a867f51485d25.js","__path_to_iframe_refresh_css":"https://cpwebassets.codepen.io/assets/editor/iframe/iframeRefreshCSS-550eae0ce567d3d9182e33cee4e187761056020161aa87e3ef74dc467972c555.js","__path_to_iframe_runtime_errors":"https://cpwebassets.codepen.io/assets/editor/iframe/iframeRuntimeErrors-4f205f2c14e769b448bcf477de2938c681660d5038bc464e3700256713ebe261.js","__path_to_processor_worker":"https://cpwebassets.codepen.io/assets/packs/router.js","__path_to_stop_execution_on_timeout":"https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-2c7831bb44f98c1391d6a4ffda0e1fd302503391ca806e7fcc7b9b87197aec26.js","__pen_normalize_css_url":"https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css","__pen_prefix_free_url":"https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js","__pen_reset_css_url":"https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"}</textarea>
+<script nonce="">
+    __editor_config = {"id":"classic","editors":[{"id":"html","type":"html","name":"HTML","showEditor":true,"showSettings":true,"showProcessors":true,"embeds":{"showViewCompiled":true},"settings":[{"id":"processor","name":"HTML Preprocessor","type":"select","visible":true,"values":[{"id":"none","name":"None","value":"none","default":true},{"id":"haml","name":"Haml","value":"haml"},{"id":"markdown","name":"Markdown","value":"markdown"},{"id":"slim","name":"Slim","value":"slim"},{"id":"pug","name":"Pug","value":"pug"}]},{"id":"html_classes","name":"Add Class(es) to \u003chtml\u003e","type":"input","placeholder":"e.g. single post post-1234","visible":true},{"id":"head","name":"Stuff for \u003chead\u003e","type":"textarea","placeholder":"e.g. \u003cmeta\u003e, \u003clink\u003e, \u003cscript\u003e","visible":true}],"actions":[{"id":"tidy_html","type":"tidy_code","name":"Format HTML","disabled_processors":["haml","slim"]},{"id":"view_compiled_html","type":"view_compiled","name":"View Compiled HTML","disabled_processors":["none"],"showInEmbeds":true},{"id":"analyze_html","type":"analyze","name":"Analyze HTML"},{"id":"maximize_html_editor","type":"maximize","name":"Maximize HTML Editor"},{"id":"minimize_html_editor","type":"minimize","name":"Minimize HTML Editor"},{"id":"fold_all_html","type":"fold_all","name":"Fold All"},{"id":"unfold_all_html","type":"unfold_all","name":"Unfold All"}],"processors":[{"id":"none","name":"None"},{"id":"haml","name":"Haml"},{"id":"markdown","name":"Markdown"},{"id":"slim","name":"Slim"},{"id":"pug","name":"Pug"}]},{"id":"css","type":"css","name":"CSS","showEditor":true,"showSettings":true,"showProcessors":true,"showVendorPrefixing":true,"embeds":{"showViewCompiled":true},"actions":[{"id":"tidy_css","type":"tidy_code","name":"Format CSS","disabled_processors":["sass","stylus"]},{"id":"view_compiled_css","type":"view_compiled","name":"View Compiled CSS","disabled_processors":["none"],"disabled_prefixes":["neither","prefixfree"]},{"id":"analyze_css","type":"analyze","name":"Analyze CSS"},{"id":"maximize_css_editor","type":"maximize","name":"Maximize CSS Editor"},{"id":"minimize_css_editor","type":"minimize","name":"Minimize CSS Editor"},{"id":"fold_all_css","type":"fold_all","name":"Fold All","disabled_processors":["sass"]},{"id":"unfold_all_css","type":"unfold_all","name":"Unfold All","disabled_processors":["sass"]}],"processors":[{"id":"none","name":"None"},{"id":"less","name":"Less"},{"id":"scss","name":"SCSS"},{"id":"sass","name":"Sass"},{"id":"stylus","name":"Stylus"},{"id":"postcss","name":"PostCSS"}],"parSuffixes":["less","scss","sass","styl"]},{"id":"js","type":"js","name":"JS","showEditor":true,"showSettings":true,"showProcessors":true,"detectImports":true,"externalResourcesHidden":false,"embeds":{"showViewCompiled":true},"actions":[{"id":"tidy_js","type":"tidy_code","name":"Format JavaScript","disabled_processors":["coffeescript, livescript"]},{"id":"view_compiled_js","type":"view_compiled","name":"View Compiled JavaScript","disabled_processors":["none"]},{"id":"analyze_js","type":"analyze","name":"Analyze JavaScript"},{"id":"maximize_js_editor","type":"maximize","name":"Maximize JavaScript Editor"},{"id":"minimize_js_editor","type":"minimize","name":"Minimize JavaScript Editor"},{"id":"fold_all_js","type":"fold_all","name":"Fold All"},{"id":"unfold_all_js","type":"unfold_all","name":"Unfold All"}],"processors":[{"id":"none","name":"None"},{"id":"babel","name":"Babel"},{"id":"typescript","name":"TypeScript"},{"id":"coffeescript","name":"CoffeeScript"},{"id":"livescript","name":"LiveScript"}]}],"formatters":[{"id":"classic","name":"Classic","runOn":[{"eventType":"demand"}],"url":"https://fi593g2v2a.execute-api.us-west-2.amazonaws.com/production/format"}],"layout":{"default":"top"},"linters":[{"id":"classic","name":"Classic","runOn":[{"eventType":"demand"}],"url":"https://fi593g2v2a.execute-api.us-west-2.amazonaws.com/production/lint"}],"preview":{"intervalMaxWaitMS":3500,"intervalMS":1200},"settings":[{"id":"details","name":"Pen Details","type":"setting"},{"id":"privacy","name":"Privacy","pro":true,"type":"setting"},{"id":"behavior","name":"Behavior","type":"setting"},{"id":"editor","name":"Editor","type":"setting"},{"id":"template","name":"Template","type":"setting"},{"id":"screenshot","name":"Screenshot","pro":true,"type":"setting"}]}
+    __processedPen = {"html":"&lt;article dir=&quot;ltr&quot;&gt;\n  &lt;figure id=&quot;box_model&quot;&gt;\n    Content Box\n    &lt;span class=&quot;vertical scrollbar&quot;&gt;&lt;/span&gt;\n    &lt;span class=&quot;horizontal scrollbar&quot;&gt;&lt;/span&gt;\n  &lt;/figure&gt;\n&lt;/article&gt;\n\n&lt;form action=&quot;&quot;&gt;\n  &lt;label for=&quot;show_scrollbars&quot;&gt;Show scrollbars?&lt;/label&gt;\n  &lt;input id=&quot;show_scrollbars&quot; type=&quot;checkbox&quot;&gt;\n  \n  &lt;label for=&quot;inline_scrollbars&quot;&gt;Inline scrollbars?&lt;/label&gt;\n  &lt;input id=&quot;inline_scrollbars&quot; type=&quot;checkbox&quot;&gt;\n&lt;/form&gt;","css":"body {\n  min-height: 100vh;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  flex-direction: column;\n  /*  scale the whole thing here  */\n  font-size: min(2vmax, 2rem);\n  gap: 0 5vmin;\n}\n\n@media (orientation: landscape) {\n  body {\n    flex-direction: row;\n  }\n}\n\narticle {\n  background: repeating-linear-gradient(-45deg, hsl(0 0% 70%), hsl(0 0% 70%) 1px, white 1px, white 10px);\n  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.02),\n    0 6.7px 5.3px hsl(0 0% 0% / .028),\n    0 12.5px 10px hsl(0 0% 0% / .035),\n    0 22.3px 17.9px hsl(0 0% 0% / .042),\n    0 41.8px 33.4px hsl(0 0% 0% / .05),\n    0 100px 80px hsl(0 0% 0% / .07);\n  position: relative;\n}\n\narticle::before {\n  content: &quot;Margin Box&quot;;\n  position: absolute;\n  top: 1ex;\n  left: 50%;\n  transform: translateX(-50%);\n  height: 3ex;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  font-size: .5em;\n  background: white;\n  padding: .25rem 1rem;\n  border-radius: 3rem;\n}\n\narticle::after {\n  content: &quot;Outline &amp; Box Shadow&quot;;\n  position: absolute;\n  top: 6ex;\n  left: 0;\n  width: 100%;\n  height: 6ex;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  font-size: .5em;\n  color: white;\n}\n\nfigure {\n  width: 25vmin;\n  height: 25vmin;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  margin: 6ex;\n  border: 3ex solid black;\n  outline: 3ex solid hsl(270 50% 40% / 80%);\n\tpadding: 3ex;\n\tbackground:\n\t\tlinear-gradient(white, white) content-box,\n\t\tlinear-gradient(hotpink, hotpink) padding-box;\n  position: relative;\n}\n\nfigure &gt; .scrollbar {\n  background: hsl(0 0% 0% / 25%);\n  position: absolute;\n  visibility: hidden;\n}\n\nfigure &gt; .scrollbar.vertical {\n  width: 1ex;\n  height: 100%;\n  top: 0;\n  right: 0;\n}\n\nfigure &gt; .scrollbar.horizontal {\n  height: 1ex;\n  width: 100%;\n  bottom: 0;\n  left: 0;\n}\n\nfigure[scrollbars=&quot;true&quot;] .scrollbar {\n  visibility: visible;\n}\n\nfigure[inline-scrollbars=&quot;true&quot;] {\n  padding: 3ex 4ex 4ex 3ex;\n}\n\nfigure::after {\n  content: &quot;Padding Box&quot;;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 6ex;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  font-size: .5em;\n}\n\nfigure::before {\n  content: &quot;Border Box&quot;;\n  color: white;\n  position: absolute;\n  top: 0;\n  left: 0;\n  transform: translateY(-100%);\n  width: 100%;\n  height: 6ex;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  font-size: .5em;\n}\n\nform {\n  display: grid;\n  grid-template-columns: 1fr auto;\n  place-items: center;\n  justify-items: flex-end;\n  gap: 1rem;\n  -webkit-margin-before: 3rem;\n          margin-block-start: 3rem;\n}\n\n@media (height &lt;= 640px) {\n  form {\n    grid-auto-flow: column;\n    gap: .25rem;\n  }\n  \n  form &gt; label:last-of-type {\n    -webkit-margin-start: 2rem;\n            margin-inline-start: 2rem;\n  }\n}","js":"document.body.setAttribute(&#39;dir&#39;, &#39;ltr&#39;);\n\nwindow.show_scrollbars.addEventListener(&#39;input&#39;, (e) =&gt;\nwindow.box_model.setAttribute(&#39;scrollbars&#39;, e.target.checked));\n\nwindow.inline_scrollbars.addEventListener(&#39;input&#39;, (e) =&gt;\nwindow.box_model.setAttribute(&#39;inline-scrollbars&#39;, e.target.checked));"};
+    __preprocessors = {
+      "html": "none",
+      "css": "none",
+      "js": "none"
+    };
+    __preprocessorNames = {
+      "html": "HTML",
+      "css": "CSS",
+      "js": "JS"
+    };
+    __editable = true;
+    __embed_prefill = false;
+  </script>
+<script src="./embed-59842fbf0495f2c0b079a7f4ce7544fb0912f3535856bf4dc5c205acbb621c54.js.download"></script>
+<script src="./vendor-d41ccd2006ab513f71e0.chunk.js.download"></script>
+<script src="./1-8110eff09668333dad6a.chunk.js.download"></script>
+<script src="./processorRouter-12e1ba46e03a4ac96f6a.js.download"></script>
+<script src="./editable_embed-dedf293a9a57f1ec1b149b073bad7ddb3ee5cc338f7be45a38050ab6b704502d.js.download"></script>
+
+
+</body></html>

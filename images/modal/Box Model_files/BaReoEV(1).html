@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<!-- saved from url=(0075)https://cdpn.io/web-dot-dev/fullembedgrid/BaReoEV?animations=run&type=embed -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  
+  
+<link rel="apple-touch-icon" type="image/png" href="https://cpwebassets.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png">
+<meta name="apple-mobile-web-app-title" content="CodePen">
+
+<link rel="shortcut icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico">
+
+<link rel="mask-icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111">
+
+
+  
+  <title>CodePen - Box Model</title>
+  
+  <link rel="stylesheet" href="./normalize.min.css">
+
+  
+  
+<style>
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /*  scale the whole thing here  */
+  font-size: min(2vmax, 2rem);
+  gap: 0 5vmin;
+}
+
+@media (orientation: landscape) {
+  body {
+    flex-direction: row;
+  }
+}
+
+article {
+  background: repeating-linear-gradient(-45deg, hsl(0 0% 70%), hsl(0 0% 70%) 1px, white 1px, white 10px);
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.02),
+    0 6.7px 5.3px hsl(0 0% 0% / .028),
+    0 12.5px 10px hsl(0 0% 0% / .035),
+    0 22.3px 17.9px hsl(0 0% 0% / .042),
+    0 41.8px 33.4px hsl(0 0% 0% / .05),
+    0 100px 80px hsl(0 0% 0% / .07);
+  position: relative;
+}
+
+article::before {
+  content: "Margin Box";
+  position: absolute;
+  top: 1ex;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 3ex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: .5em;
+  background: white;
+  padding: .25rem 1rem;
+  border-radius: 3rem;
+}
+
+article::after {
+  content: "Outline & Box Shadow";
+  position: absolute;
+  top: 6ex;
+  left: 0;
+  width: 100%;
+  height: 6ex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: .5em;
+  color: white;
+}
+
+figure {
+  width: 25vmin;
+  height: 25vmin;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 6ex;
+  border: 3ex solid black;
+  outline: 3ex solid hsl(270 50% 40% / 80%);
+	padding: 3ex;
+	background:
+		linear-gradient(white, white) content-box,
+		linear-gradient(hotpink, hotpink) padding-box;
+  position: relative;
+}
+
+figure > .scrollbar {
+  background: hsl(0 0% 0% / 25%);
+  position: absolute;
+  visibility: hidden;
+}
+
+figure > .scrollbar.vertical {
+  width: 1ex;
+  height: 100%;
+  top: 0;
+  right: 0;
+}
+
+figure > .scrollbar.horizontal {
+  height: 1ex;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+
+figure[scrollbars="true"] .scrollbar {
+  visibility: visible;
+}
+
+figure[inline-scrollbars="true"] {
+  padding: 3ex 4ex 4ex 3ex;
+}
+
+figure::after {
+  content: "Padding Box";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 6ex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: .5em;
+}
+
+figure::before {
+  content: "Border Box";
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateY(-100%);
+  width: 100%;
+  height: 6ex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: .5em;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  place-items: center;
+  justify-items: flex-end;
+  gap: 1rem;
+  -webkit-margin-before: 3rem;
+          margin-block-start: 3rem;
+}
+
+@media (height <= 640px) {
+  form {
+    grid-auto-flow: column;
+    gap: .25rem;
+  }
+  
+  form > label:last-of-type {
+    -webkit-margin-start: 2rem;
+            margin-inline-start: 2rem;
+  }
+}
+</style>
+
+  
+  
+  
+  <script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
+
+
+</head>
+
+<body translate="no" dir="ltr">
+  <article dir="ltr">
+  <figure id="box_model">
+    Content Box
+    <span class="vertical scrollbar"></span>
+    <span class="horizontal scrollbar"></span>
+  </figure>
+</article>
+
+<form action="https://cdpn.io/web-dot-dev/fullembedgrid/BaReoEV?animations=run&amp;type=embed">
+  <label for="show_scrollbars">Show scrollbars?</label>
+  <input id="show_scrollbars" type="checkbox">
+  
+  <label for="inline_scrollbars">Inline scrollbars?</label>
+  <input id="inline_scrollbars" type="checkbox">
+</form>
+    <script src="./stopExecutionOnTimeout-2c7831bb44f98c1391d6a4ffda0e1fd302503391ca806e7fcc7b9b87197aec26.js.download"></script>
+
+  
+      <script id="rendered-js">
+document.body.setAttribute('dir', 'ltr');
+
+window.show_scrollbars.addEventListener('input', (e) =>
+window.box_model.setAttribute('scrollbars', e.target.checked));
+
+window.inline_scrollbars.addEventListener('input', (e) =>
+window.box_model.setAttribute('inline-scrollbars', e.target.checked));
+//# sourceURL=pen.js
+    </script>
+
+  
+
+  <script src="./iframeRefreshCSS-550eae0ce567d3d9182e33cee4e187761056020161aa87e3ef74dc467972c555.js.download"></script>
+
+
+
+ 
+</body></html>

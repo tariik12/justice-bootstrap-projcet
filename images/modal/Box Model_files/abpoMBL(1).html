@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<!-- saved from url=(0075)https://cdpn.io/web-dot-dev/fullembedgrid/abpoMBL?animations=run&type=embed -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  
+  
+<link rel="apple-touch-icon" type="image/png" href="https://cpwebassets.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png">
+<meta name="apple-mobile-web-app-title" content="CodePen">
+
+<link rel="shortcut icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico">
+
+<link rel="mask-icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111">
+
+
+  
+  <title>CodePen - CodePen Home Learn CSS - Extrinsic sizing vs intrinsic sizing</title>
+  
+  
+  <link rel="stylesheet" href="./abpoXGZ.css">
+  
+<style>
+.awesome {
+  text-transform: uppercase;
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: 1;
+  border: 5px solid;
+  padding: 2rem;
+
+  /* The important extrinsic width */
+  width: 320px;
+}
+
+.awesome[data-sizing="intrinsic"] {
+  width: min-content;
+}
+
+/*
+
+
+Presentational styles 
+*/
+.awesome {
+  --flow-space: 2rem;
+}
+</style>
+
+  
+  
+  
+  <script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
+
+
+</head>
+
+<body translate="no">
+  <main>
+  <div class="wrapper">
+    <article class="flow">
+      <h1>Extrinsic sizing vs intrinsic sizing</h1>
+      <figure class="callout">
+        <p>
+          Notice that when the box is using <strong>extrinsic sizing</strong>, there’s
+          a limit of how much content you can add before it overflows out of the box’s
+          bounds. This makes the word, “awesome”, overflow.
+        </p>
+      </figure>
+      <label class="toggle" for="intrinsic-switch">
+        <span class="toggle__label">Turn on intrinsic sizing</span>
+        <input type="checkbox" role="switch" class="toggle__element" id="intrinsic-switch">
+        <div class="toggle__decor" aria-hidden="true">
+          <div class="toggle__thumb"></div>
+        </div>
+      </label>
+      <p class="awesome" data-element="awesome">CSS is awesome</p>
+    </article>
+  </div>
+</main>
+    <script src="./stopExecutionOnTimeout-2c7831bb44f98c1391d6a4ffda0e1fd302503391ca806e7fcc7b9b87197aec26.js.download"></script>
+
+  
+      <script id="rendered-js">
+const awesome = document.querySelector('[data-element="awesome"]');
+const intrinsicSwitch = document.querySelector("#intrinsic-switch");
+
+// Set sizing attribute based on switch
+intrinsicSwitch.addEventListener("change", () => {
+  awesome.setAttribute(
+  "data-sizing",
+  intrinsicSwitch.checked ? "intrinsic" : "extrinsic");
+
+});
+//# sourceURL=pen.js
+    </script>
+
+  
+
+  <script src="./iframeRefreshCSS-550eae0ce567d3d9182e33cee4e187761056020161aa87e3ef74dc467972c555.js.download"></script>
+
+
+
+ 
+</body></html>
